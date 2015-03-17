@@ -15,8 +15,8 @@ class hosts (
 
     anchor { '::hosts::begin' :     } ->
     class  { '::hosts::file' :      } ->
-    class  { '::hosts::localhost' : } ->
-    class  { '::hosts::primary' :   } ->
+#   class  { '::hosts::localhost' : } ->
+#   class  { '::hosts::primary' :   } ->
     anchor { '::hosts::end' :       }
 
 }
